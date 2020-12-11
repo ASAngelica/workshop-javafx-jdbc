@@ -9,7 +9,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<VBox prefHeight="516.0" prefWidth="632.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.SellerListController">
+<VBox prefHeight="650.0" prefWidth="948.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.SellerListController">
    <children>
       <Label text="Seller Registration">
          <font>
@@ -26,13 +26,13 @@
       </ToolBar>
       <TableView fx:id="tableViewSeller" prefHeight="200.0" prefWidth="200.0">
         <columns>
-          <TableColumn fx:id="tableColumnId" prefWidth="34.0" text="Id" />
-          <TableColumn fx:id="tableColumnName" prefWidth="153.0" text="Name" />
-            <TableColumn fx:id="tableColumnEmail" prefWidth="163.0" text="Email" />
-            <TableColumn fx:id="tableColumnBirthDate" prefWidth="173.0" text="Birth Date" />
-            <TableColumn fx:id="tableColumnBaseSalary" prefWidth="10.0" text="Base Salary" />
-            <TableColumn fx:id="tableColumnEDIT" minWidth="0.0" prefWidth="82.0" />
-            <TableColumn fx:id="tableColumnREMOVE" prefWidth="91.0" />
+          <TableColumn fx:id="tableColumnId" prefWidth="84.0" resizable="false" text="Id" />
+          <TableColumn fx:id="tableColumnName" prefWidth="191.0" resizable="false" text="Name" />
+            <TableColumn fx:id="tableColumnEmail" prefWidth="221.0" resizable="false" text="Email" />
+            <TableColumn fx:id="tableColumnBirthDate" prefWidth="109.0" resizable="false" text="Birth Date" />
+            <TableColumn fx:id="tableColumnBaseSalary" prefWidth="105.0" resizable="false" text="Base Salary" />
+            <TableColumn fx:id="tableColumnEDIT" minWidth="0.0" prefWidth="86.0" resizable="false" />
+            <TableColumn fx:id="tableColumnREMOVE" prefWidth="120.0" resizable="false" />
         </columns>
          <columnResizePolicy>
             <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
